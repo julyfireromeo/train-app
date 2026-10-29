@@ -74,10 +74,12 @@ def stationfinder(user_lat, user_lon):
         
     return None
 
-def trainfinder():
+def trainfinder(user_lat, user_lon):
     url = "https://api.amtraker.com/v3/trains"
 
     response = requests.get(url) #downloads the data
     train_data = response.json() #convert into python
     active_train_count = len(train_data)
     print(f"Downloaded data for {active_train_count} active trains.")
+
+    return train_data
