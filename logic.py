@@ -85,17 +85,21 @@ def trainfinder(user_lat, user_lon):
     nearest_train = None;
     dist = 0.0;
     min_distance = float('inf')
+    t_speed = 0.0; #train speed
 
     for i in train_data:
-        train_lon = train_data["lon"]
-        train_lat = train_data["lat"]
+        train_lon = train_data[i][0]["lon"] #name of dictionary [key / name ] [index of list (can only be zero)] [specific var key / name]
+        train_lat = train_data[i][0]["lat"]
 
         dist = distancefinder(train_lon, train_lat, user_lon, user_lat)
 
         if dist < min_distance:
             min_distance = dist;
-            nearest_train = train_data["routeName"]
+            nearest_train = train_data[i][0]["routeName"]
+            t_speed = train_data[i][0]["velocity"]
 
-
-
-        
+    return {
+        "name": nearest_train,
+        "distance": round(min_distance, 1),
+        "speed": round(t_speed, 1) if t_speed else 0
+    }
