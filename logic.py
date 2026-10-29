@@ -1,6 +1,7 @@
 import math
 import csv
 import pgeocode
+import requests
 
 def distancefinder(lon1, lat1, lon2, lat2):
     circ = 24901.461 
@@ -72,3 +73,11 @@ def stationfinder(user_lat, user_lon):
         }
         
     return None
+
+def trainfinder():
+    url = "https://api.amtraker.com/v3/trains"
+
+    response = requests.get(url) #downloads the data
+    train_data = response.json() #convert into python
+    active_train_count = len(train_data)
+    print(f"Downloaded data for {active_train_count} active trains.")
