@@ -82,4 +82,20 @@ def trainfinder(user_lat, user_lon):
     active_train_count = len(train_data)
     print(f"Downloaded data for {active_train_count} active trains.")
 
-    return train_data
+    nearest_train = None;
+    dist = 0.0;
+    min_distance = float('inf')
+
+    for i in train_data:
+        train_lon = train_data["lon"]
+        train_lat = train_data["lat"]
+
+        dist = distancefinder(train_lon, train_lat, user_lon, user_lat)
+
+        if dist < min_distance:
+            min_distance = dist;
+            nearest_train = train_data["routeName"]
+
+
+
+        
