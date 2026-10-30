@@ -10,9 +10,18 @@ h1 {
 
 button {
     border-radius: 8px;
-    color:blue;
+    background-color:cornflowerblue;
+    border: none;
+    color: darkblue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor:alias;
+
 }
 
 .fancy-txt {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:serif;
 }
+
