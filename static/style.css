@@ -10,10 +10,8 @@ h1 {
 
 button {
     border-radius: 8px;
-    background-color:navajowhite;
-    border-color:blue;
-    border-width: thin;
-    color: darkblue;
+    background-color:burlywood;
+    color: brown;
     padding: 12px 24px;
     text-align: center;
     font-size: 12px;
@@ -26,10 +24,8 @@ button {
 .link-button {
     border-radius: 8px;
     background-color:burlywood;
-    border-color:blue;
-    border-width: thin;
-    color: darkblue;
-    padding: 10px 20px;
+    color: brown;
+    padding: 12px 24px;
     text-align: center;
     font-size: 12px;
 }
