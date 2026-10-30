@@ -14,7 +14,7 @@ button {
     color: brown;
     padding: 12px 24px;
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 /*NOTES FOR FUTURE ME: rmemember to make the font size bigger (16 was good) and figure out how to either add a border to link btn or remove it from button*/
@@ -29,5 +29,5 @@ button {
     color: brown;
     padding: 12px 24px;
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
 }
