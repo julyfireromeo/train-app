@@ -12,3 +12,7 @@ button {
     border-radius: 8px;
     color:blue;
 }
+
+.fancy-txt {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
