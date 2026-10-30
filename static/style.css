@@ -11,17 +11,25 @@ h1 {
 button {
     border-radius: 8px;
     background-color:cornflowerblue;
-    border: none;
+    border:blue;
     color: darkblue;
-    padding: 15px 32px;
+    padding: 14px 28px;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    cursor:alias;
-
 }
 
 .fancy-txt {
     font-family:serif;
 }
 
+.link-button {
+    border-radius: 8px;
+    background-color:cornflowerblue;
+    border:blue;
+    color: darkblue;
+    padding: 14px 28px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
