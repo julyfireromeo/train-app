@@ -10,12 +10,12 @@ h1 {
 
 button {
     border-radius: 8px;
-    background-color:cornflowerblue;
-    border:blue;
+    background-color:cornsilk;
+    border-color:blue;
+    border-width: thin;
     color: darkblue;
-    padding: 14px 28px;
+    padding: 12px 24px;
     text-align: center;
-    text-decoration: none;
     font-size: 16px;
 }
 
@@ -24,12 +24,12 @@ button {
 }
 
 .link-button {
-    background-color:beige;
-    border:blue;
+    border-radius: 8px;
+    background-color:cornsilk;
+    border-color:blue;
     border-width: thin;
     color: darkblue;
-    padding: 14px 28px;
+    padding: 10px 20px;
     text-align: center;
-    text-decoration: none;
     font-size: 16px;
 }
