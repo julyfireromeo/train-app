@@ -10,13 +10,13 @@ h1 {
 
 button {
     border-radius: 8px;
-    background-color:cornsilk;
+    background-color:navajowhite;
     border-color:blue;
     border-width: thin;
     color: darkblue;
     padding: 12px 24px;
     text-align: center;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .fancy-txt {
@@ -25,11 +25,11 @@ button {
 
 .link-button {
     border-radius: 8px;
-    background-color:cornsilk;
+    background-color:burlywood;
     border-color:blue;
     border-width: thin;
     color: darkblue;
     padding: 10px 20px;
     text-align: center;
-    font-size: 16px;
+    font-size: 12px;
 }
