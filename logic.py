@@ -101,5 +101,5 @@ def trainfinder(user_lat, user_lon):
     return {
         "name": nearest_train,
         "distance": round(min_distance, 1),
-        "speed": round(t_speed, 1) if t_speed else 0
+        "speed": round(t_speed, 1) if t_speed else 0 #makes sure the program wont crash if velocity returns None
     }
