@@ -24,9 +24,9 @@ button {
 }
 
 .link-button {
-    border-radius: 8px;
-    background-color:cornflowerblue;
+    background-color:beige;
     border:blue;
+    border-width: thin;
     color: darkblue;
     padding: 14px 28px;
     text-align: center;
