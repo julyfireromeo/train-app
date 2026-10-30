@@ -7,3 +7,8 @@ body {
 h1 {
     color:navy;
 }
+
+button {
+    border-radius: 8px;
+    color:blue;
+}
