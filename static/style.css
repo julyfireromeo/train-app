@@ -9,8 +9,9 @@ h1 {
 }
 
 button {
-    border-radius: 2px;
+    border-radius: 8px;
     border: solid;
+    border-width: thin;
     background-color:burlywood;
     color: brown;
     padding: 8px 18px;
