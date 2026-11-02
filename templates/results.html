@@ -26,9 +26,7 @@
 
         {% if train_data %}
         
-        <p>The nearest train to you currently is <i>{{ train_data['name'] }}</i>.</p>
-        <p>This train is <i>{{ train_data['distance'] }}</i> miles away.</p>
-        <p>This train is going <i>{{ train_data['speed'] }}</i> mph.</p>
+        <p>The nearest train to you currently is <i>{{ train_data['name'] }}</i>. <br>This train is <i>{{ train_data['distance'] }}</i> miles away. <br>This train is going <i>{{ train_data['speed'] }}</i> mph.</p>
 
         {% else %}
             <p>Sorry, we couldn't find a train near that zipcode.</p>
