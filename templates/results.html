@@ -23,6 +23,19 @@
             <p>Sorry, we couldn't find a station near that zipcode.</p>
         {% endif %}
         <br>
+
+        {% if train_data %}
+        
+        <p>The nearest train to you currently is <i>{{ train_data['name'] }}</i>.</p>
+        <p>This train is <i>{{ train_data['distance'] }}</i> miles away.</p>
+        <p>This train is going <i>{{ train_data['speed'] }}</i> mph.</p>
+
+        {% else %}
+            <p>Sorry, we couldn't find a train near that zipcode.</p>
+
+        {% endif %}
+        <br>
+        
         <a href="/">Search another zip code</a>
 
     </body> 

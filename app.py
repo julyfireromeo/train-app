@@ -14,8 +14,9 @@ def home():
             town = logic.zipcodetotownish(user_zip)
 
             nearest_station = logic.stationfinder(lat,lon)
+            active_train = logic.trainfinder(lat, lon)
 
-            return render_template('results.html', town_name=town, station_data=nearest_station)
+            return render_template('results.html', town_name=town, station_data=nearest_station, train_data = active_train)
 
     return render_template('index.html')
 
