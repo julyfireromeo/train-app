@@ -9,16 +9,18 @@ h1 {
 }
 
 button {
-    border-radius: 8px;
+    border-radius: 2px;
     border: solid;
     background-color:burlywood;
     color: brown;
-    padding: 10px 20px;
+    padding: 8px 18px;
     text-align: center;
     font-size: 16px;
 }
 
-/*NOTES FOR FUTURE ME: rmemember to make the font size bigger (16 was good) and figure out how to either add a border to link btn or remove it from button*/
+.station-card {
+    font-family: 'Times New Roman', Times, serif;
+}
 
 .fancy-txt {
     font-family:serif;
